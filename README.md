@@ -13,7 +13,7 @@ so after installing mariadb-server you can get error, when try mariadb-secure-in
 
 **EDIT** your mariadb-server version mariadb-server-**10.3** if needed (mine was mariadb-server-**10.6**)
 
-apt-get install --reinstall -o Dpkg::Options::="--force-confmiss" mariadb-server-10.3
+> apt-get install --reinstall -o Dpkg::Options::="--force-confmiss" mariadb-server-10.3
 
 **Created some files:
 **
@@ -22,7 +22,7 @@ apt-get install --reinstall -o Dpkg::Options::="--force-confmiss" mariadb-server
 /etc/mysql/debian-start
 
 **And:**
-apt-get install --reinstall -o Dpkg::Options::="--force-confmiss" mysql-common
+> apt-get install --reinstall -o Dpkg::Options::="--force-confmiss" mysql-common
 
 **Created:**
 /etc/mysql/my.cnf
